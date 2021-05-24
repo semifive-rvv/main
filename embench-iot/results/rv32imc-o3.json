@@ -1,0 +1,50 @@
+Benchmark            size
+---------            ----
+aha-mont64          3,240
+crc32               1,388
+cubic               4,198
+edn                 4,084
+huffbench           4,480
+matmult-int         2,142
+minver              5,544
+nbody               5,546
+nettle-aes          5,252
+nettle-sha256       9,204
+nsichneu           18,068
+picojpeg           16,518
+qrduino            16,248
+sglib-combined     11,248
+slre                4,650
+st                  3,668
+statemate           5,790
+ud                  3,980
+wikisort           11,726
+---------                -----
+Geometric mean               5,756 
+Geometric SD                  1.97 
+Geometric range            8385.78 
+Benchmark                Speed
+---------                -----
+aha-mont64               4,531,250
+crc32                    3,836,280
+cubic                   14,815,655
+edn                      3,440,643
+huffbench                2,272,784
+matmult-int              4,342,910
+minver                   9,429,511
+nbody                    7,731,400
+nettle-aes               4,385,831
+nettle-sha256            3,926,403
+nsichneu                 2,236,744
+picojpeg                 3,520,658
+qrduino                  2,858,372
+sglib-combined           2,276,062
+slre                     2,503,300
+st                      11,624,759
+statemate                1,152,906
+ud                         913,449
+wikisort                 2,268,623
+---------                -----
+Geometric mean           3,609,854 
+Geometric SD                  2.01 
+Geometric range         5457047.49 

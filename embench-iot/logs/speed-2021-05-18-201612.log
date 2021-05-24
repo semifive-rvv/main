@@ -1,0 +1,557 @@
+Log file: /DATADRIVE1/Projects/RISCV/BENCHMARKS/embench-iot/logs/speed-2021-05-18-201612.log
+
+
+Supplied arguments
+==================
+--builddir            : bd
+--logdir              : logs
+--baselinedir         : baseline-data
+--absolute            : True
+--output-format       : None
+--json-comma          : False
+--target-module       : run_spike
+--timeout             : 30
+--sim-parallel        : False
+
+Benchmarks
+==========
+aha-mont64
+crc32
+cubic
+edn
+huffbench
+matmult-int
+minver
+nbody
+nettle-aes
+nettle-sha256
+nsichneu
+picojpeg
+qrduino
+sglib-combined
+slre
+st
+statemate
+ud
+wikisort
+
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./aha-mont64
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./aha-mont64']
+### STDOUT:
+bbl loader
+CYCLES=13680296
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=13680296
+
+bbl loader
+CYCLES=13680296
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=13680296
+
+### rcstr.grout(1)
+13680296
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./crc32
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./crc32']
+### STDOUT:
+bbl loader
+CYCLES=6621544
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=6621544
+
+bbl loader
+CYCLES=6621544
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=6621544
+
+### rcstr.grout(1)
+6621544
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./cubic
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./cubic']
+### STDOUT:
+bbl loader
+CYCLES=15900851
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=15900851
+
+bbl loader
+CYCLES=15900851
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=15900851
+
+### rcstr.grout(1)
+15900851
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./edn
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./edn']
+### STDOUT:
+bbl loader
+CYCLES=12500636
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=12500636
+
+bbl loader
+CYCLES=12500636
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=12500636
+
+### rcstr.grout(1)
+12500636
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./huffbench
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./huffbench']
+### STDOUT:
+bbl loader
+CYCLES=7190345
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=7190345
+
+bbl loader
+CYCLES=7190345
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=7190345
+
+### rcstr.grout(1)
+7190345
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./matmult-int
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./matmult-int']
+### STDOUT:
+bbl loader
+CYCLES=18466097
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=18466097
+
+bbl loader
+CYCLES=18466097
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=18466097
+
+### rcstr.grout(1)
+18466097
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./minver
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./minver']
+### STDOUT:
+bbl loader
+CYCLES=68991536
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=68991536
+
+bbl loader
+CYCLES=68991536
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=68991536
+
+### rcstr.grout(1)
+68991536
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nbody
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nbody']
+### STDOUT:
+bbl loader
+CYCLES=7892260
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=7892260
+
+bbl loader
+CYCLES=7892260
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=7892260
+
+### rcstr.grout(1)
+7892260
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nettle-aes
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nettle-aes']
+### STDOUT:
+bbl loader
+CYCLES=7509023
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=7509023
+
+bbl loader
+CYCLES=7509023
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=7509023
+
+### rcstr.grout(1)
+7509023
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nettle-sha256
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nettle-sha256']
+### STDOUT:
+bbl loader
+CYCLES=6255791
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=6255791
+
+bbl loader
+CYCLES=6255791
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=6255791
+
+### rcstr.grout(1)
+6255791
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nsichneu
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./nsichneu']
+### STDOUT:
+bbl loader
+CYCLES=3855531
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=3855531
+
+bbl loader
+CYCLES=3855531
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=3855531
+
+### rcstr.grout(1)
+3855531
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./picojpeg
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./picojpeg']
+### STDOUT:
+bbl loader
+CYCLES=11121887
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=11121887
+
+bbl loader
+CYCLES=11121887
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=11121887
+
+### rcstr.grout(1)
+11121887
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./qrduino
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./qrduino']
+### STDOUT:
+bbl loader
+CYCLES=6490216
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=6490216
+
+bbl loader
+CYCLES=6490216
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=6490216
+
+### rcstr.grout(1)
+6490216
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./sglib-combined
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./sglib-combined']
+### STDOUT:
+bbl loader
+CYCLES=6348054
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=6348054
+
+bbl loader
+CYCLES=6348054
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=6348054
+
+### rcstr.grout(1)
+6348054
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./slre
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./slre']
+### STDOUT:
+bbl loader
+CYCLES=6074461
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=6074461
+
+bbl loader
+CYCLES=6074461
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=6074461
+
+### rcstr.grout(1)
+6074461
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./st
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./st']
+### STDOUT:
+bbl loader
+CYCLES=12707138
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=12707138
+
+bbl loader
+CYCLES=12707138
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=12707138
+
+### rcstr.grout(1)
+12707138
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./statemate
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./statemate']
+### STDOUT:
+bbl loader
+CYCLES=1706757
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=1706757
+
+bbl loader
+CYCLES=1706757
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=1706757
+
+### rcstr.grout(1)
+1706757
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./ud
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./ud']
+### STDOUT:
+bbl loader
+CYCLES=12719709
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=12719709
+
+bbl loader
+CYCLES=12719709
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=12719709
+
+### rcstr.grout(1)
+12719709
+Success: Find # of cycles
+### in benchmark_speed:
+bash -c /home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./wikisort
+### Return code:
+0
+['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./wikisort']
+### STDOUT:
+bbl loader
+CYCLES=3246168
+
+### STDERR:
+
+Success:
+bbl loader
+CYCLES=3246168
+
+bbl loader
+CYCLES=3246168
+
+### rcstr
+<_sre.SRE_Match object; span=(0, 10), match='bbl loader'>
+bbl loader
+CYCLES=3246168
+
+### rcstr.grout(1)
+3246168
+Success: Find # of cycles
+Benchmark                Speed
+---------                -----
+aha-mont64              13,680,296
+crc32                    6,621,544
+cubic                   15,900,851
+edn                     12,500,636
+huffbench                7,190,345
+matmult-int             18,466,097
+minver                  68,991,536
+nbody                    7,892,260
+nettle-aes               7,509,023
+nettle-sha256            6,255,791
+nsichneu                 3,855,531
+picojpeg                11,121,887
+qrduino                  6,490,216
+sglib-combined           6,348,054
+slre                     6,074,461
+st                      12,707,138
+statemate                1,706,757
+ud                      12,719,709
+wikisort                 3,246,168
+---------                -----
+Geometric mean           8,614,251 
+Geometric SD                  2.12 
+Geometric range        14217890.69 
+All benchmarks run successfully

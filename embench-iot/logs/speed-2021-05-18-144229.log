@@ -1,0 +1,16 @@
+Log file: /DATADRIVE1/Projects/RISCV/BENCHMARKS/embench-iot/logs/speed-2021-05-18-144229.log
+
+
+Supplied arguments
+==================
+--builddir            : bd
+--logdir              : logs
+--baselinedir         : baseline-data
+--absolute            : False
+--output-format       : None
+--json-comma          : False
+--target-module       : run_spike
+--timeout             : 30
+--sim-parallel        : False
+--bench               : A B C
+

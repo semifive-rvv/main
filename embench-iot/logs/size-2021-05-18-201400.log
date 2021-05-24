@@ -1,0 +1,66 @@
+Log file: /DATADRIVE1/Projects/RISCV/BENCHMARKS/embench-iot/logs/size-2021-05-18-201400.log
+
+
+Supplied arguments
+==================
+--format              : elf
+--builddir            : bd
+--logdir              : logs
+--baselinedir         : baseline-data
+--absolute            : True
+--output-format       : None
+--json-comma          : False
+--text                : []
+--data                : []
+--rodata              : []
+--bss                 : []
+--metric              : []
+
+Benchmarks
+==========
+aha-mont64
+crc32
+cubic
+edn
+huffbench
+matmult-int
+minver
+nbody
+nettle-aes
+nettle-sha256
+nsichneu
+picojpeg
+qrduino
+sglib-combined
+slre
+st
+statemate
+ud
+wikisort
+
+Benchmark            size
+---------            ----
+aha-mont64         64,734
+crc32              61,938
+cubic              90,820
+edn                65,212
+huffbench          64,838
+matmult-int        62,774
+minver             67,372
+nbody              68,742
+nettle-aes         67,018
+nettle-sha256      69,994
+nsichneu           85,736
+picojpeg           78,882
+qrduino            74,540
+sglib-combined     76,722
+slre               67,916
+st                 68,738
+statemate          66,666
+ud                 65,692
+wikisort           81,058
+---------                -----
+Geometric mean              70,615 
+Geometric SD                  1.11 
+Geometric range           14903.50 
+All benchmarks sized successfully

@@ -1,0 +1,38 @@
+Log file: /DATADRIVE1/Projects/RISCV/BENCHMARKS/embench-iot/logs/speed-2021-05-18-104220.log
+
+
+Supplied arguments
+==================
+--builddir            : bd
+--logdir              : logs
+--baselinedir         : baseline-data
+--absolute            : False
+--output-format       : None
+--json-comma          : False
+--target-module       : run_spike
+--timeout             : 30
+--sim-parallel        : False
+--bench               : AAA
+
+Benchmarks
+==========
+aha-mont64
+crc32
+cubic
+edn
+huffbench
+matmult-int
+minver
+nbody
+nettle-aes
+nettle-sha256
+nsichneu
+picojpeg
+qrduino
+sglib-combined
+slre
+st
+statemate
+ud
+wikisort
+
