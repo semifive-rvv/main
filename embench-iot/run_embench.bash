@@ -3,7 +3,7 @@
 
 # Native compilation: ./build_all.py --arch native --board default --chip default --clean
 
-EMBENCH_ROOT=/DATADRIVE1/Projects/RISCV/BENCHMARKS/embench-iot
+EMBENCH_ROOT=$PWD
 
 if [ "$#" -ne 1 ]; then
   echo "Running Embench "

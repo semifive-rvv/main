@@ -43,7 +43,8 @@ def build_benchmark_cmd(bench, args):
     # a command that records both the return value and execution time to
     # stdin/stdout. Obviously using time will not be very precise.
     # return ['sh', '-c', 'time -p ./' + bench + '; echo RET=$?']
-    return ['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./' + bench ]
+    #return ['bash', '-c', '/home/jong/Projects/RISCV/bin/spike_32 /home/jong/Projects/RISCV/riscv32-unknown-elf/bin/pk ./' + bench ]
+    return ['bash', '-c', '$(which spike)  $(which pk) ./' + bench ]
 
 
 def decode_results(stdout_str, stderr_str):

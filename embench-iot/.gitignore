@@ -1,0 +1,10 @@
+.gitignore
+bd/
+logs/
+*.o
+*.log
+*.pyc
+.*.swp
+.*.swo
+results/
+
